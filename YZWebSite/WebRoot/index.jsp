@@ -26,9 +26,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
    <div class="wap">
   <div class="head">
-    <div class="logo"><img src="images/logo.jpg" height="80" width="80"/></a></div>
+    <div class="logo"><img src="images/logo.jpg" height="80" width="80"></div>
     <div class="nav">
       <div class="nav_content" >
+      <a class="a" href="signup.jsp">注册</a><a class="a" href="login.jsp" >登陆</a>&nbsp;&nbsp;
         <ul>
            <li><a href="index.jsp" class="a1">首页</a></li>
           <li><a href="news.jsp" class="a7"> 品牌新闻</a></li>
